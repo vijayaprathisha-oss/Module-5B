@@ -13,7 +13,7 @@ To write a Python program using **NumPy** that finds the indices where elements 
 5. **Print Indices**: Print the indices where the condition holds true.
 
 ## 🧾 Program
-import numpy as np
+```import numpy as np
 a=eval(input())
 b=eval(input())
 x=np.array(a)
@@ -22,6 +22,7 @@ greater=np.where(x>y)
 position=np.where(x==y)
 print(greater)
 print(position)
+```
 ## Output
 <img width="929" height="859" alt="image" src="https://github.com/user-attachments/assets/7a8f95cc-c15d-4790-abf3-97970d3d3daa" />
 
